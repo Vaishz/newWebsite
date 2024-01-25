@@ -1,0 +1,39 @@
+/*h-30 bg-red-100 w-6/12 m-10 items-center grid grid-cols-2   SEARCHBAR
+ w-30 h-full bg-transparent p-2  USER INPUT
+ grid grid-cols-4 w-screen   ITEMS TO BUY
+ text-center  TEXT IN BUTTON*/
+
+/*font-family: 'Noto Sans', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+
+Noto Sans Light 300
+Regular 400
+SemiBold 600
+Roboto Condensed Light 300
+
+*/
+
+:root {
+  --search_bar-bg-clr: #fff;
+  --bg-clr: #f0ebeb;
+  --text-clr: #fff;
+
+  --ff-links: "Roboto Condensed", sans-serif;
+  --ff-normal: "Noto Sans", sans-serif;
+}
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.search_bar {
+  display: flex;
+}

@@ -12,7 +12,7 @@ import Auth from "./Auth";
 import PasswordGen from "./PasswordGen";
 import Login from "./components/Login";
 import SignUp from "./components/SignUp";
-import Shop from "./components/Shop/Shop";
+import Shop from "../Shop";
 
 const App = () => {
   return (
