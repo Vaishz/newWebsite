@@ -1,0 +1,23 @@
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.searchbar {
+  display: flex;
+  margin: 20px;
+}
+
+.searchbar .userInput {
+  border: solid 2px #aea9a9;
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
