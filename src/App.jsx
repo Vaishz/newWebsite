@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Home from "./Home";
 import About from "./About";
 import Contact from "./Contact";
@@ -13,10 +13,14 @@ import PasswordGen from "./PasswordGen";
 import Login from "./components/Login";
 import SignUp from "./components/SignUp";
 import Shop from "./components/Shop/Shop";
+import Cart from "./Cart";
+import { CartProvider } from 'react-use-cart';
+
 
 const App = () => {
   return (
     <>
+ <CartProvider>
       <BrowserRouter>
         <Header />
         <Routes>
@@ -29,8 +33,10 @@ const App = () => {
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/shop" element={<Shop />} />
+          <Route path="/cart" element= {<Cart/>} />
         </Routes>
       </BrowserRouter>
+      </CartProvider>
       <Footer />
     </>
   );

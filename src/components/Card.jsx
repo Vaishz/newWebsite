@@ -1,13 +1,15 @@
 import React, { useState } from 'react';
+import { useCart } from 'react-use-cart'
 
 const Card = (props) => {
+
   const [showFullInfo, setShowFullInfo] = useState(false);
 
   const toggleShowInfo = () => {
     setShowFullInfo(!showFullInfo);
   };
 
-  const containerHeight = showFullInfo ? 'h-auto' : 'h-96';
+  const containerHeight = showFullInfo ? 'h-auto' : 'h-[430px]';
 
   return (
     <div className={`relative mt-10 text-gray-700 bg-white shadow-md rounded-xl w-96 ${containerHeight} m-9`}>
@@ -19,7 +21,7 @@ const Card = (props) => {
         />
       </div>
 
-      <div className="p-6">
+      <div className="pt-5 pl-5 pr-5">
         <h5 className="block mb-2 text-xl font-bold text-center">
           {props.name}
         </h5>
