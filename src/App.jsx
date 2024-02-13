@@ -17,6 +17,7 @@ import Cart from "./Cart";
 import { CartProvider } from 'react-use-cart';
 
 
+
 const App = () => {
   return (
     <>
@@ -42,4 +43,33 @@ const App = () => {
   );
 };
 
+<<<<<<< HEAD
+
+
+   <BrowserRouter>
+   <Header/>
+   <Routes>
+    <Route path='/' element={<Home/>} />
+    <Route path='/about' element={<About/>}/>
+    <Route path='/contact' element={<Contact/>}/>
+    <Route path='/services' element={<Services/>}/>
+    <Route path='/auth' element={<Auth/>}/>
+    <Route path='/pw' element={<PasswordGen/>}/>
+    <Route path='/login' element={<Login/>}/>
+    <Route path='/signup' element={<SignUp/>}/>
+    <Route path='/shop' element={<Shop/>}/>
+  
+
+   </Routes>
+   </BrowserRouter>
+   <Footer/>
+
+   
+   </>
+  )
+}
+
+export default App
+=======
 export default App;
+>>>>>>> 40478d24246160c337e2821c5f14081f91770fde
