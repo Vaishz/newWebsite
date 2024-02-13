@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.button{
+    max-width: fit-content;
+    text-decoration: none;
+    background-color: #5908bc;
+    color: aliceblue;
+    border: none;
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button:hover{
+    box-shadow:1rem 1rem rgba(rgba(29, 23, 25, 0.9));
+    transform: scale(0.96);
+}

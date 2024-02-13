@@ -1,7 +1,7 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 .navBar{
@@ -17,40 +17,48 @@
 
 }
 
-.nav-elements {
-  list-style: none;
-  display: flex;
-  padding: 1%;
-  gap: 5%;
-
-  a {
+.nav-elements{
+    list-style: none;
+    display: flex;
+    padding: 1%;
+    gap: 5%;
+    
+  
+ a{
     color: #fcf9f9;
     display: block;
     padding: 5px;
     font-size: 23px;
     text-decoration: none;
     position: relative;
-  }
+ }
 
-  a::after {
-    content: "";
+ a::after{
+    content: '';
     width: 0px;
     height: 1px;
     background-color: red;
     position: absolute;
     left: 0;
     bottom: 0;
-  }
+    }
 
-  a:hover::after {
-    width: 100%;
-    transition: 0.3s;
-  }
+
+a:hover::after
+    {
+        width: 100%;
+        transition: 0.3s;
+    }
 }
 
-.logo {
-  width: 80px;
-  height: 80px;
-  object-fit: cover;
-  border-radius: 50%;
+
+.logo
+{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
 }
+
+
+
