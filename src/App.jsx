@@ -16,6 +16,7 @@ import Shop from './Shop'
 
 
 
+
 const App = () => {
   return (
     <>
@@ -34,6 +35,7 @@ const App = () => {
     <Route path='/login' element={<Login/>}/>
     <Route path='/signup' element={<SignUp/>}/>
     <Route path='/shop' element={<Shop/>}/>
+  
 
    </Routes>
    </BrowserRouter>

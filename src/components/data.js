@@ -30,7 +30,7 @@ let dataProducts = [
     {
         id:4,
         image:pro4,
-        name:'chaxchus',
+        name:'mv',
         price:'$50000'
     },
 
@@ -44,32 +44,32 @@ let dataProducts = [
     {
         id:6,
         image:pro5,
-        name:'delt',
-        price:'$7000'
+        name:'saxsux',
+        price:'$7600'
     },
     {
         id:7,
         image:pro5,
-        name:'delt',
-        price:'$7000'
+        name:'papa ki belt',
+        price:'$9000'
     },
     {
         id:8,
         image:pro5,
-        name:'delt',
-        price:'$7000'
+        name:'deltasx',
+        price:'$0.99'
     },
     {
         id:9,
         image:pro5,
-        name:'delt',
-        price:'$7000'
+        name:'bhais',
+        price:'$14000'
     },
     {
         id:10,
         image:pro5,
-        name:'delt',
-        price:'$7000'
+        name:'bull',
+        price:'$900'
     },
 
 ]
