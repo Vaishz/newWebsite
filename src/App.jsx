@@ -15,6 +15,7 @@ import SignUp from "./components/SignUp";
 import Shop from "./components/Shop/Shop";
 import Cart from "./Cart";
 import { CartProvider } from 'react-use-cart';
+import Api from "./Api";
 
 
 
@@ -35,6 +36,7 @@ const App = () => {
           <Route path="/signup" element={<SignUp />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="/cart" element= {<Cart/>} />
+          <Route path="/api" element= {<Api/>} />
         </Routes>
       </BrowserRouter>
       </CartProvider>
